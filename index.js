@@ -1,23 +1,10 @@
-// Your code here
+// Tests 1-3
 function saturdayFun(activity = "roller-skate"){
     return `This Saturday, I want to ${activity}!`;
 }
 
+// Tests 4-6
+const mondayWork = function (activity = 'go to the office') {
+    return `This Monday, I will ${activity}.`
+  }
 
-
-/*
-describe("index.js", () => {
-  describe("defines saturdayFun function declaration as specified", function() {
-    it("function exists", function() {
-      expect(saturdayFun).to.exist
-    })
-
-    it("uses the default activity 'roller-skate' when no arguments are passed", function() {
-      expect(saturdayFun()).to.equal("This Saturday, I want to roller-skate!")
-    })
-
-    it("permits the default activity to be overriden", function() {
-      expect(saturdayFun("bathe my dog")).to.equal("This Saturday, I want to bathe my dog!")
-    })
-  })
-*/
